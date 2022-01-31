@@ -24,7 +24,7 @@ const App = () => {
         <Container maxWidth="gl">
             <AppBar className={classes.appBar} position="static" color='inherit'>
                 <Typography variant='h2' align='center'></Typography>
-                <img className={classes.image} src={Blogger_logo} alt={"Blogger_logo"} height="60" />
+                <img className={classes.image} src={Blogger_logo} alt={"Blogger_logo"} height="60" width="250" />
             </AppBar>
             <Grow in>
                 <Container>
@@ -37,8 +37,8 @@ const App = () => {
                         </Grid>
                     </Grid>
                 </Container>
-            </Grow>
-        </Container>
+            </Grow >
+        </Container >
     )
 }
 

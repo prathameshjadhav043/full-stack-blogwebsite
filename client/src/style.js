@@ -2,12 +2,15 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
     appBar: {
+        // position: 'fixed',
         borderRadius: 15,
-        margin: '30px 0',
+        height: 80,
+        margin: '30px 0px',
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         alignItems: 'center',
+        opacity: 0.7
     },
     heading: {
         color: 'rgba(0,183,255, 1)',
